@@ -37,3 +37,6 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+-- my pluggings  jacj
+vim.wo.relativenumber = true
